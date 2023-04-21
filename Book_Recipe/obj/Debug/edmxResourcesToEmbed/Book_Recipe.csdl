@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Book_RecipeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="ID_Book" />
+    </Key>
+    <Property Name="ID_Book" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Year" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Recipe" Relationship="Self.FK_Recipe_Book" FromRole="Book" ToRole="Recipe" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="ID_Category" />
+    </Key>
+    <Property Name="ID_Category" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Category_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Recipe" Relationship="Self.FK_Recipe_Category" FromRole="Category" ToRole="Recipe" />
+  </EntityType>
+  <EntityType Name="Condition">
+    <Key>
+      <PropertyRef Name="ID_Condition" />
+    </Key>
+    <Property Name="ID_Condition" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Condition_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Composition" Relationship="Self.FK_Composition_Condition" FromRole="Condition" ToRole="Composition" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="ID_Country" />
+    </Key>
+    <Property Name="ID_Country" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Country_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Kitchen" Relationship="Self.FK_Kitchen_Country" FromRole="Country" ToRole="Kitchen" />
+  </EntityType>
+  <EntityType Name="Ingredient">
+    <Key>
+      <PropertyRef Name="ID_Ingredient" />
+    </Key>
+    <Property Name="ID_Ingredient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ingredient_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Composition" Relationship="Self.FK_Composition_Ingredient" FromRole="Ingredient" ToRole="Composition" />
+  </EntityType>
+  <EntityType Name="Kitchen">
+    <Key>
+      <PropertyRef Name="ID_Kitchen" />
+    </Key>
+    <Property Name="ID_Kitchen" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kitchen_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ID_Country" Type="Int32" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_Kitchen_Country" FromRole="Kitchen" ToRole="Country" />
+    <NavigationProperty Name="Recipe" Relationship="Self.FK_Recipe_Kitchen" FromRole="Kitchen" ToRole="Recipe" />
+  </EntityType>
+  <EntityType Name="Recipe">
+    <Key>
+      <PropertyRef Name="ID_Recipe" />
+    </Key>
+    <Property Name="ID_Recipe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Dish_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_Kitchen" Type="Int32" />
+    <Property Name="ID_Category" Type="Int32" Nullable="false" />
+    <Property Name="Cooking_method" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_Book" Type="Int32" />
+    <Property Name="Calorie" Type="Int32" />
+    <Property Name="Portion" Type="Int32" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Book" Relationship="Self.FK_Recipe_Book" FromRole="Recipe" ToRole="Book" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Recipe_Category" FromRole="Recipe" ToRole="Category" />
+    <NavigationProperty Name="Kitchen" Relationship="Self.FK_Recipe_Kitchen" FromRole="Recipe" ToRole="Kitchen" />
+    <NavigationProperty Name="Composition" Relationship="Self.FK_Composition_Recipe" FromRole="Recipe" ToRole="Composition" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="ID_Unit" />
+    </Key>
+    <Property Name="ID_Unit" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Unit1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Composition" Relationship="Self.FK_Composition_Unit" FromRole="Unit" ToRole="Composition" />
+  </EntityType>
+  <EntityType Name="Composition">
+    <Key>
+      <PropertyRef Name="ID_Recipe" />
+      <PropertyRef Name="ID_Ingredient" />
+      <PropertyRef Name="ID_Unit" />
+      <PropertyRef Name="Number" />
+    </Key>
+    <Property Name="ID_Recipe" Type="Int32" Nullable="false" />
+    <Property Name="ID_Ingredient" Type="Int32" Nullable="false" />
+    <Property Name="ID_Unit" Type="Int32" Nullable="false" />
+    <Property Name="Number" Type="Int32" Nullable="false" />
+    <Property Name="ID_Condition" Type="Int32" />
+    <NavigationProperty Name="Condition" Relationship="Self.FK_Composition_Condition" FromRole="Composition" ToRole="Condition" />
+    <NavigationProperty Name="Ingredient" Relationship="Self.FK_Composition_Ingredient" FromRole="Composition" ToRole="Ingredient" />
+    <NavigationProperty Name="Recipe" Relationship="Self.FK_Composition_Recipe" FromRole="Composition" ToRole="Recipe" />
+    <NavigationProperty Name="Unit" Relationship="Self.FK_Composition_Unit" FromRole="Composition" ToRole="Unit" />
+  </EntityType>
+  <Association Name="FK_Recipe_Book">
+    <End Role="Book" Type="Self.Book" Multiplicity="0..1" />
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="ID_Book" />
+      </Principal>
+      <Dependent Role="Recipe">
+        <PropertyRef Name="ID_Book" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recipe_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="ID_Category" />
+      </Principal>
+      <Dependent Role="Recipe">
+        <PropertyRef Name="ID_Category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Composition_Condition">
+    <End Role="Condition" Type="Self.Condition" Multiplicity="0..1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Condition">
+        <PropertyRef Name="ID_Condition" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Condition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitchen_Country">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="Kitchen" Type="Self.Kitchen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="ID_Country" />
+      </Principal>
+      <Dependent Role="Kitchen">
+        <PropertyRef Name="ID_Country" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Composition_Ingredient">
+    <End Role="Ingredient" Type="Self.Ingredient" Multiplicity="1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ingredient">
+        <PropertyRef Name="ID_Ingredient" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Ingredient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recipe_Kitchen">
+    <End Role="Kitchen" Type="Self.Kitchen" Multiplicity="0..1" />
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kitchen">
+        <PropertyRef Name="ID_Kitchen" />
+      </Principal>
+      <Dependent Role="Recipe">
+        <PropertyRef Name="ID_Kitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Composition_Recipe">
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recipe">
+        <PropertyRef Name="ID_Recipe" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Recipe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Composition_Unit">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="ID_Unit" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Unit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Book_RecipeEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Book" EntityType="Self.Book" />
+    <EntitySet Name="Category" EntityType="Self.Category" />
+    <EntitySet Name="Condition" EntityType="Self.Condition" />
+    <EntitySet Name="Country" EntityType="Self.Country" />
+    <EntitySet Name="Ingredient" EntityType="Self.Ingredient" />
+    <EntitySet Name="Kitchen" EntityType="Self.Kitchen" />
+    <EntitySet Name="Recipe" EntityType="Self.Recipe" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Unit" EntityType="Self.Unit" />
+    <EntitySet Name="Composition" EntityType="Self.Composition" />
+    <AssociationSet Name="FK_Recipe_Book" Association="Self.FK_Recipe_Book">
+      <End Role="Book" EntitySet="Book" />
+      <End Role="Recipe" EntitySet="Recipe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recipe_Category" Association="Self.FK_Recipe_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Recipe" EntitySet="Recipe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Composition_Condition" Association="Self.FK_Composition_Condition">
+      <End Role="Condition" EntitySet="Condition" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitchen_Country" Association="Self.FK_Kitchen_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Kitchen" EntitySet="Kitchen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Composition_Ingredient" Association="Self.FK_Composition_Ingredient">
+      <End Role="Ingredient" EntitySet="Ingredient" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recipe_Kitchen" Association="Self.FK_Recipe_Kitchen">
+      <End Role="Kitchen" EntitySet="Kitchen" />
+      <End Role="Recipe" EntitySet="Recipe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Composition_Recipe" Association="Self.FK_Composition_Recipe">
+      <End Role="Recipe" EntitySet="Recipe" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Composition_Unit" Association="Self.FK_Composition_Unit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

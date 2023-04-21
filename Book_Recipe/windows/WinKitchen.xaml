@@ -1,0 +1,18 @@
+﻿<Window x:Class="Book_Recipe.windows.WinKitchen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book_Recipe.windows"
+        mc:Ignorable="d"
+        Title="Кухня-редактирование" Height="450" Width="800" Icon="/Book_Recipe;component/Image_glav/Glav_Image.jpg">
+    <Grid Background="#FFEDF5E1">
+        <StackPanel Width="400">
+            <TextBlock Margin="3" Foreground="#05386b">Название кухни</TextBlock>
+            <TextBox Margin="3" Width="390" Text="{Binding Kitchen_name}"></TextBox>
+            <TextBlock Margin="3" Foreground="#05386b">Страна</TextBlock>
+            <ComboBox Margin="3" Height="30" Name="country_box" SelectedValue="{Binding ID_Country}"  DisplayMemberPath="Country_name" SelectedValuePath="ID_Country"></ComboBox>
+            <Button Margin="3,10,3,5" x:Name="btnSave" Click="btnSaveClick">Сохранить</Button>
+        </StackPanel>
+    </Grid>
+</Window>

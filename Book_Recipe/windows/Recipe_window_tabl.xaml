@@ -1,0 +1,71 @@
+﻿<Window x:Class="Book_Recipe.windows.Recipe_window_tabl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book_Recipe.windows"
+        mc:Ignorable="d"
+        Title="Рецепты" Height="450" Width="1300" Icon="/Book_Recipe;component/Image_glav/Glav_Image.jpg">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <DataGrid ColumnWidth="*" IsReadOnly="True" AutoGenerateColumns="False" x:Name="Recipe_window_tabl_tabl">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="Название" Binding="{Binding Dish_name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Кухня" Binding="{Binding Kitchen.Kitchen_name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="категория" Binding="{Binding Category.Category_name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Способ приготовления" Binding="{Binding Cooking_method}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Книга" Binding="{Binding Book.Book_name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Колории" Binding="{Binding Calorie}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Порций" Binding="{Binding Portion}"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="картинка">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Width="30" Height="30" Source="{Binding Image}"></Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Редактировать">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button  Content="Редактировать" Name="Redact" Click="Button_Redact">
+
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="1" Background="#8ee4af">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Click="button_add_table" Margin="5" Content="Добавить" Foreground="#FFEDF5E1" FontWeight="Bold" FontSize="15" Background="#FF5CDB95">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Column="1" Margin="5" Click="button_Delete_table" Content="Удалить"  FontSize="15"  FontWeight="Bold" Background="#FF5CDB95" Foreground="#FFEDF5E1">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <TextBox  Grid.Row="0" Grid.Column="4" Name="textSearch" TextChanged="textSearchClick" BorderBrush="Black" Margin="5" Style="{StaticResource text_XD}">
+
+            </TextBox>
+            <ComboBox  Height="30" Name="cb2" Grid.Row="1" Grid.Column="2" Margin="5" SelectionChanged="comboBax_2_cb" SelectedValue="{Binding ID_Category}"  DisplayMemberPath="Category_name" SelectedValuePath="ID_Category">
+
+            </ComboBox>
+        </Grid>
+    </Grid>
+</Window>

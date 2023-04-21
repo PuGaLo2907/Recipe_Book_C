@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Book_RecipeModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="ID_Book" />
+    </Key>
+    <Property Name="ID_Book" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Book_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Author" Type="nvarchar(max)" />
+    <Property Name="Year" Type="date" />
+    <Property Name="Image" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="ID_Category" />
+    </Key>
+    <Property Name="ID_Category" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Category_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Book_Recipe.dbo.Composition" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Composition">
+    <Key>
+      <PropertyRef Name="ID_Recipe" />
+      <PropertyRef Name="ID_Ingredient" />
+      <PropertyRef Name="ID_Unit" />
+      <PropertyRef Name="Number" />
+    </Key>
+    <Property Name="ID_Recipe" Type="int" Nullable="false" />
+    <Property Name="ID_Ingredient" Type="int" Nullable="false" />
+    <Property Name="ID_Unit" Type="int" Nullable="false" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="ID_Condition" Type="int" />
+  </EntityType>
+  <EntityType Name="Condition">
+    <Key>
+      <PropertyRef Name="ID_Condition" />
+    </Key>
+    <Property Name="ID_Condition" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Condition_name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="ID_Country" />
+    </Key>
+    <Property Name="ID_Country" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Country_name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ingredient">
+    <Key>
+      <PropertyRef Name="ID_Ingredient" />
+    </Key>
+    <Property Name="ID_Ingredient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ingredient_name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kitchen">
+    <Key>
+      <PropertyRef Name="ID_Kitchen" />
+    </Key>
+    <Property Name="ID_Kitchen" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kitchen_name" Type="nvarchar(max)" />
+    <Property Name="ID_Country" Type="int" />
+  </EntityType>
+  <EntityType Name="Recipe">
+    <Key>
+      <PropertyRef Name="ID_Recipe" />
+    </Key>
+    <Property Name="ID_Recipe" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Dish_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ID_Kitchen" Type="int" />
+    <Property Name="ID_Category" Type="int" Nullable="false" />
+    <Property Name="Cooking_method" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ID_Book" Type="int" />
+    <Property Name="Calorie" Type="int" />
+    <Property Name="Portion" Type="int" />
+    <Property Name="Image" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="ID_Unit" />
+    </Key>
+    <Property Name="ID_Unit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Unit" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Book_Recipe.dbo.User" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID_User" />
+      <PropertyRef Name="User_name" />
+      <PropertyRef Name="User_Login" />
+      <PropertyRef Name="User_Password" />
+    </Key>
+    <Property Name="ID_User" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="User_Login" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="User_Password" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Composition_Condition">
+    <End Role="Condition" Type="Self.Condition" Multiplicity="0..1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Condition">
+        <PropertyRef Name="ID_Condition" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Condition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Composition_Ingredient">
+    <End Role="Ingredient" Type="Self.Ingredient" Multiplicity="1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ingredient">
+        <PropertyRef Name="ID_Ingredient" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Ingredient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Composition_Recipe">
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recipe">
+        <PropertyRef Name="ID_Recipe" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Recipe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Composition_Unit">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="1" />
+    <End Role="Composition" Type="Self.Composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="ID_Unit" />
+      </Principal>
+      <Dependent Role="Composition">
+        <PropertyRef Name="ID_Unit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitchen_Country">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="Kitchen" Type="Self.Kitchen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="ID_Country" />
+      </Principal>
+      <Dependent Role="Kitchen">
+        <PropertyRef Name="ID_Country" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recipe_Book">
+    <End Role="Book" Type="Self.Book" Multiplicity="0..1" />
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="ID_Book" />
+      </Principal>
+      <Dependent Role="Recipe">
+        <PropertyRef Name="ID_Book" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recipe_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="ID_Category" />
+      </Principal>
+      <Dependent Role="Recipe">
+        <PropertyRef Name="ID_Category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recipe_Kitchen">
+    <End Role="Kitchen" Type="Self.Kitchen" Multiplicity="0..1" />
+    <End Role="Recipe" Type="Self.Recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kitchen">
+        <PropertyRef Name="ID_Kitchen" />
+      </Principal>
+      <Dependent Role="Recipe">
+        <PropertyRef Name="ID_Kitchen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Book_RecipeModelContainer">
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Condition" EntityType="Self.Condition" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ingredient" EntityType="Self.Ingredient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kitchen" EntityType="Self.Kitchen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Recipe" EntityType="Self.Recipe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Unit" EntityType="Self.Unit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Composition" EntityType="Self.Composition" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Composition].[ID_Recipe] AS [ID_Recipe], 
+    [Composition].[ID_Ingredient] AS [ID_Ingredient], 
+    [Composition].[ID_Unit] AS [ID_Unit], 
+    [Composition].[Number] AS [Number], 
+    [Composition].[ID_Condition] AS [ID_Condition]
+    FROM [dbo].[Composition] AS [Composition]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="User" EntityType="Self.User" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [User].[ID_User] AS [ID_User], 
+    [User].[User_name] AS [User_name], 
+    [User].[User_Login] AS [User_Login], 
+    [User].[User_Password] AS [User_Password]
+    FROM [dbo].[User] AS [User]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Composition_Condition" Association="Self.FK_Composition_Condition">
+      <End Role="Condition" EntitySet="Condition" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Composition_Ingredient" Association="Self.FK_Composition_Ingredient">
+      <End Role="Ingredient" EntitySet="Ingredient" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Composition_Recipe" Association="Self.FK_Composition_Recipe">
+      <End Role="Recipe" EntitySet="Recipe" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Composition_Unit" Association="Self.FK_Composition_Unit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="Composition" EntitySet="Composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitchen_Country" Association="Self.FK_Kitchen_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Kitchen" EntitySet="Kitchen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recipe_Book" Association="Self.FK_Recipe_Book">
+      <End Role="Book" EntitySet="Book" />
+      <End Role="Recipe" EntitySet="Recipe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recipe_Category" Association="Self.FK_Recipe_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Recipe" EntitySet="Recipe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recipe_Kitchen" Association="Self.FK_Recipe_Kitchen">
+      <End Role="Kitchen" EntitySet="Kitchen" />
+      <End Role="Recipe" EntitySet="Recipe" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

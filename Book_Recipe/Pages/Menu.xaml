@@ -1,0 +1,74 @@
+﻿<Page x:Class="Book_Recipe.Pages.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Book_Recipe.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="864" d:DesignWidth="1910"
+      Title="Menu">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Button Name="btn_xd" Click="btn_1_Click"  Width="50" Margin="-1300, 0, 0, 0" Style="{StaticResource RoundedButton}" BorderThickness="0">
+            <Button.Resources>
+
+            </Button.Resources>
+            <Button.Background>
+                <ImageBrush ImageSource="/Book_Recipe;component/image/xd.png"/>
+            </Button.Background>
+        </Button>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Content="Ингредиенты" Name="Button_Ingredient" Click="Button_Ingredient_Click" Style="{StaticResource menu}">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Row="1" Content="Категории"  Name="Button_Category" Click="Button_Category_Click"  Style="{StaticResource menu}">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="2" Content="Кухни"  Click="Button_Kitchen_Click" Style="{StaticResource menu}">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="2" Content="Книги"  Click="Book_click" Style="{StaticResource menu}">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Content="Рецепты"  Height="330" Width="200" Name="Button_Recipe" Click="Button_Recipe_Click" Style="{StaticResource menu_recipe}">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+    </Grid>
+</Page>

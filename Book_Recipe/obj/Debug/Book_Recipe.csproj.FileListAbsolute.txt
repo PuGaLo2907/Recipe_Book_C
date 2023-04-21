@@ -1,0 +1,331 @@
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\App.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.cache
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.lref
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe.config
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.pdb
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.g.resources
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.Properties.Resources.resources
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.GenerateResource.cache
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CoreCompileInputs.cache
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.exe
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.pdb
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe.config
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.pdb
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.dll
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.xml
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\ru\EntityFramework.resources.dll
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csprojAssemblyReference.cache
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\App.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_Content.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.cache
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.lref
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.g.resources
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.Properties.Resources.resources
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.GenerateResource.cache
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CoreCompileInputs.cache
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CopyComplete
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.exe
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.pdb
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.dll
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.dll
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.xml
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.xml
+E:\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\ru\EntityFramework.resources.dll
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_Content.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CopyComplete
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingredient.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingredient.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\App.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\App.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Ingridient_window_table.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinIngridient.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Ingridient_window_table.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinIngridient.baml
+D:\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe.config
+D:\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe
+D:\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.pdb
+D:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.dll
+D:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.dll
+D:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.xml
+D:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.xml
+D:\Book_Recipe\Book_Recipe\bin\Debug\ru\EntityFramework.resources.dll
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csprojAssemblyReference.cache
+D:\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingredient.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\Ingridient_window_table.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinIngridient.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\App.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_Content.g.cs
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.cache
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.lref
+D:\Book_Recipe\Book_Recipe\obj\Debug\App.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingredient.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\Ingridient_window_table.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinIngridient.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.baml
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.g.resources
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.Properties.Resources.resources
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.GenerateResource.cache
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CoreCompileInputs.cache
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CopyComplete
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.exe
+D:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.pdb
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.baml
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.g.cs
+D:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csprojAssemblyReference.cache
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingredient.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\App.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_Content.g.cs
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.cache
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.lref
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.exe
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.pdb
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe.config
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.pdb
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\App.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingredient.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.baml
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.g.resources
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CopyComplete
+E:\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe.config
+E:\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe
+E:\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.pdb
+E:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.dll
+E:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.dll
+E:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.xml
+E:\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.xml
+E:\Book_Recipe\Book_Recipe\bin\Debug\ru\EntityFramework.resources.dll
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csprojAssemblyReference.cache
+E:\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\App.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_Content.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.cache
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.lref
+E:\Book_Recipe\Book_Recipe\obj\Debug\App.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.g.resources
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.Properties.Resources.resources
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.GenerateResource.cache
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CoreCompileInputs.cache
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CopyComplete
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.exe
+E:\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.pdb
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Ingridient.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Ingridient.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\spravka.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\spravka.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingridient.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\sostav.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\spravka.g.cs
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingridient.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\spravka.baml
+E:\Book_Recipe\Book_Recipe\obj\Debug\Pages\sostav.baml
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\sostav.g.cs
+E:\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\sostav.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe.config
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.exe
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\Book_Recipe.pdb
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.dll
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.dll
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.xml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\EntityFramework.SqlServer.xml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\bin\Debug\ru\EntityFramework.resources.dll
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.AssemblyReference.cache
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.SuggestedBindingRedirects.cache
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingridient.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\sostav.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\spravka.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\App.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_Content.g.cs
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.cache
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe_MarkupCompile.lref
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\App.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\MainWindow.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Book.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\category.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Glav.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\ingridient.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Kitchen.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Menu.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Recipe.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\Registr.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\sostav.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Pages\spravka.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Book_window_table.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Category_window_tabl.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Kitchen_window.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\Recipe_window_tabl.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinBook.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinCategory.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinKitchen.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\windows\WinRecipe.baml
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.g.resources
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.Properties.Resources.resources
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.GenerateResource.cache
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CoreCompileInputs.cache
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.csproj.CopyComplete
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.exe
+E:\3 курс - 1 половина\Курсовой\Book_Recipe\Book_Recipe\obj\Debug\Book_Recipe.pdb

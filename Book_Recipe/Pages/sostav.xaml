@@ -1,0 +1,36 @@
+﻿<Page x:Class="Book_Recipe.Pages.sostav"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Book_Recipe.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="864" d:DesignWidth="1910"
+      Title="Состав" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="ls2" ColumnWidth="*" IsReadOnly="True" AutoGenerateColumns="False" Grid.ColumnSpan="2" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Ингридиент" Binding="{Binding Ingredient.Ingredient_name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="ЕИ" Binding="{Binding Unit.Unit1}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Кол-во" Binding="{Binding Number}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Состояние" Binding="{Binding Condition.Condition_name}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Редактировать" Name="Button_Add" Click="Button_Add_Click" Width="300"  Style="{StaticResource RoundedButton}" Grid.Column="0" Grid.Row="1">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Page>

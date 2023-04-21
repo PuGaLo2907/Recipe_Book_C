@@ -1,0 +1,48 @@
+﻿<Window x:Class="Book_Recipe.windows.Kitchen_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book_Recipe.windows"
+        mc:Ignorable="d"
+        Title="Кухня" Height="450" Width="800" Icon="/Book_Recipe;component/Image_glav/Glav_Image.jpg">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <DataGrid ColumnWidth="*" IsReadOnly="True" AutoGenerateColumns="False" x:Name="Kitchen_tabl_tabl" Margin="0,0,-0.4,0" Grid.RowSpan="2">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="Название" Binding="{Binding Kitchen_name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Страна" Binding="{Binding Country.Country_name}"></DataGridTextColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="1" Background="#8ee4af">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Click="button_add_table" Margin="5" Content="Добавить" Foreground="#FFEDF5E1" FontWeight="Bold" FontSize="15" Background="#FF5CDB95">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Column="1" Margin="5" Click="button_Delete_table" Content="Удалить"  FontSize="15"  FontWeight="Bold" Background="#FF5CDB95" Foreground="#FFEDF5E1">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <TextBox  Grid.Row="0" Grid.Column="4" Name="textSearch" TextChanged="textSearchClick" BorderBrush="Black" Margin="5" Height="30">
+
+            </TextBox>
+        </Grid>
+    </Grid>
+</Window>

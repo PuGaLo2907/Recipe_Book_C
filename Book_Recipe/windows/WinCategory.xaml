@@ -1,0 +1,20 @@
+﻿<Window x:Class="Book_Recipe.windows.WinCategory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book_Recipe.windows"
+        mc:Ignorable="d"
+        Title="Категория - редактирование" Height="450" Width="800" Icon="/Book_Recipe;component/Image_glav/Glav_Image.jpg">
+    <Grid Background="#FFEDF5E1">
+        <StackPanel Width="400">
+            <TextBlock Margin="3" Foreground="#05386b">Название категории</TextBlock>
+            <TextBox Width="390" Margin="3" Text="{Binding Category_name}"></TextBox>
+            <TextBlock Foreground="#05386b" Margin="3">Картинка</TextBlock>
+            <Image Width="100" Height="70" Source="{Binding Image}"></Image>
+            <Button Height="20" Width="50" Margin="-340, 0, 0, 0" FontSize="10" Click="btn_image_click" Content="добавить"></Button>
+            <TextBlock Text="{Binding Image}" x:Name="textblock_1"></TextBlock>
+            <Button Margin="3,10,3,5" x:Name="btnSave" Click="btnSaveClick">Сохранить</Button>
+        </StackPanel>
+    </Grid>
+</Window>
